@@ -1,0 +1,13 @@
+# Core Automation
+selenium>=4.18.0
+
+# Automatic ChromeDriver Management
+# Handles driver/browser version matching automatically
+webdriver-manager>=4.0.1
+
+# Data Handling
+pandas>=2.2.0
+openpyxl>=3.1.2      # Required by pandas to read .xlsx files
+
+# All other dependencies (logging, time, random, sys, pathlib)
+# are part of the Python standard library — no installation needed.
